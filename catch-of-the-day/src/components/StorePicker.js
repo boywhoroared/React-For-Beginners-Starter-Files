@@ -6,6 +6,6 @@ export default class StorePicker extends Component {
         this.state = {  }
     }
     render() {
-        return <p>I am the Store Picker!</p>
+        return React.createElement('p', { className: 'hey'}, 'Hello')
     }
 }
