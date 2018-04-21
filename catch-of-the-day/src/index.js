@@ -13,4 +13,4 @@ class StorePicker extends Component {
     }
 }
 
-render(<p>Hey!</p>, document.querySelector('#main'))
+render(<StorePicker/>, document.querySelector('#main'))
