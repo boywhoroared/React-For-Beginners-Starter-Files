@@ -6,8 +6,10 @@ export default class StorePicker extends Component {
         this.state = {  }
     }
     render() {
-        return React.createElement('p', { className: 'hey'}, 
-            React.createElement('span', {}, 'Hello')
+        return (
+            <form action="" className="store-selector">
+                <h2>Please Enter A Store</h2>
+            </form>
         )
     }
 }
