@@ -6,6 +6,8 @@ export default class StorePicker extends Component {
         this.state = {  }
     }
     render() {
-        return React.createElement('p', { className: 'hey'}, 'Hello')
+        return React.createElement('p', { className: 'hey'}, 
+            React.createElement('span', {}, 'Hello')
+        )
     }
 }
