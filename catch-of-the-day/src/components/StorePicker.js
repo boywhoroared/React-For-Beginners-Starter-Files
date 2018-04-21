@@ -7,9 +7,12 @@ export default class StorePicker extends Component {
     }
     render() {
         return (
-            <form action="" className="store-selector">
-                <h2>Please Enter A Store</h2>
-            </form>
+            <React.Fragment>
+                <p>Fish!</p>
+                <form action="" className="store-selector">
+                    <h2>Please Enter A Store</h2>
+                </form>
+            </React.Fragment>
         )
     }
 }
